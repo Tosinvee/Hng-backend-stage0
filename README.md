@@ -1,10 +1,10 @@
 Backend Wizards Stage 0 — Dynamic Profile Endpoint
 
-Description
+- Description
 
 A simple RESTful API returning my profile info and a dynamic cat fact from the Cat Facts API.
 
-Technologies
+- Technologies
 
 Node.js
 
@@ -12,12 +12,12 @@ Express
 
 Axios
 
-Setup
+- Setup
 
 npm install
 
 npm start
 
-Endpoint
+- Endpoint
 
 GET /me
