@@ -7,8 +7,7 @@ router.get('/', async (req, res) => {
     const response = await axios.get('https://catfact.ninja/fact', {
       timeout: 5000,
     });
-    const fact = 'Cats can rotate their ears 180 degrees.';
-    //const fact = response.data.fact;
+    const fact = response.data.fact;
 
     const data = {
       status: 'success',
